@@ -7,7 +7,7 @@ namespace ExpediaTest
 	[TestFixture()]
 	public class FlightTest
 	{
-	    private readonly DateTime dateThatFlightLeaves = DateTime.Today;
+	private readonly DateTime dateThatFlightLeaves = DateTime.Today;
         private readonly DateTime dateThatFlightReturns = DateTime.Today.AddDays(5);
         private readonly int milage = 1000;
         
